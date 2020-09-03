@@ -1,0 +1,28 @@
+{
+    "/primes/*":{
+        "target": "http://localhost:8000/api",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/pairs/*":{
+        "target": "http://localhost:8000/api",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/primesDB/*":{
+        "target": "http://localhost:8000/api",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/pairsDB/*":{
+        "target": "http://localhost:8000/api",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+
+
+}

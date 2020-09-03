@@ -1,0 +1,26 @@
+<div class="list row">
+  <div class="col-md-8">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Ingrese número n"
+        [(ngModel)]= "number"
+      />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          (click)="firstNpairsDB()"
+        >
+          Calcular
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+      <h3>
+        {{ pairsdb.pairs }}
+      </h3>
+  </div>
+</div>

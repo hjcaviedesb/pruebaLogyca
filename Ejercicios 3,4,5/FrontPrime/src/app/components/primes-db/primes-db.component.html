@@ -1,0 +1,27 @@
+<div class="list row">
+  <div class="col-md-8">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Ingrese número n"
+        [(ngModel)]= "number"
+      />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          (click)="firstNprimesDB()"
+        >
+          Calcular
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <h3>
+        {{ primesdb.primes }}
+    </h3>
+
+  </div>
+</div>
