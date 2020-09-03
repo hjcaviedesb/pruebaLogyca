@@ -1,6 +1,6 @@
 # Descripción
 
-Solución a Ejercicios prueba logyca. Las soluciones se pueden dividir en dos partes,La primera parte consiste en una carpeta que contiene los ejercicios 1 y 2 escritos en lenguaje python. La segunda parte de las soluciones contiene el resto del desarrollo de los ejercicios, un API REST escrito con el framework DJANGO, el cual expone cuatro endpoints dando solución a los puntos 3 y 4. Por último el punto 5 se realizó en Angular 7, el cuál consume los endpoints del API REST escrito en DJANGO.
+Solución a Ejercicios prueba logyca. Las soluciones se pueden dividir en dos partes,La primera parte consiste en una carpeta que contiene los ejercicios 1 y 2 escritos en lenguaje python. La segunda parte de las soluciones contiene el resto del desarrollo de los ejercicios, un API REST escrito con el framework DJANGO (BackPrime), el cual expone cuatro endpoints dando solución a los puntos 3 y 4. Por último el punto 5 se realizó en Angular 7 (FronPrime), el cuál consume los endpoints del API REST escrito en DJANGO.
 
 
 ## Instalación
@@ -17,7 +17,7 @@ pip install django
 Instalando Angular
 
 ```bash
- apt-get install nodejs
+apt-get install nodejs
 npm install -g @angular/cli
 ```
 
@@ -38,3 +38,17 @@ Enpoints API
 Dirección Aplicación Web
 
 * http://localhost:4200
+
+## Uso
+
+BackPrime
+
+```bash
+python manage.py runserver
+```
+
+FrontPrime
+
+```bash
+npm start
+```
